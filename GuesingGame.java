@@ -3,7 +3,7 @@ import java.util.Random;
 public class GuesingGame {
     public static void main(String args[]){
         Random r = new Random();
-        int numberToGuess = r.nextInt(10)+1;
+        int numberToGuess = r.nextInt(100)+1;
         int numberOfAttempts = 0;
         int guess = 0;
         Scanner sc = new Scanner(System.in);
